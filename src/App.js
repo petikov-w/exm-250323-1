@@ -1,11 +1,15 @@
 // import logo from './logo.svg';
 //import './App.css';
 
+const colorText = {
+  color: "red" 
+}
+
 function App() {
   return (
-    // <div className="App">
+    
     <div>
-      <h1>Привет</h1>   
+      <h1 style={colorText}>Привет, мир !!!</h1>   
     </div>
   );
 }
